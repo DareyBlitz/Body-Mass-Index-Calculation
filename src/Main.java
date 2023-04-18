@@ -4,6 +4,6 @@ public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
         int myIndex = service.index(1.87, 98);
-        System.out.println(myIndex);
+        System.out.println("Ваш ИМТ: " + myIndex);
     }
 }
